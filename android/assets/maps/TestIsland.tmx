@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="25" height="25" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" name="town" tilewidth="16" tileheight="16">
+  <image source="tilesets/town.png" width="256" height="128"/>
+ </tileset>
+ <tileset firstgid="129" name="indoor_stone" tilewidth="16" tileheight="16">
+  <image source="tilesets/indoor_stone.png" width="288" height="192"/>
+ </tileset>
+ <layer name="Background" width="25" height="25">
+  <data encoding="base64" compression="zlib">
+   eJwTZGBgEBzFo3gUj+JRPIqRsPCoHXSzQwiIlQlgoWEaDkJIeLjZQcv4hGEAomAqrA==
+  </data>
+ </layer>
+ <layer name="Foreground" width="25" height="25">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRQA6YBcRzicRLBqkdqjjsuIPHDlUy/TLYgRsWtvpAOAQHcCOsZBTgAO50sMOVDnagAwAochgv
+  </data>
+ </layer>
+ <layer name="Overhead" width="25" height="25">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIKBAYxAzATELEDMCsRsQMwOxJxAzEUls5nRMAcapoZdAwE208GOo3Swg1hghoM9WMBgdNNQAeYD7YAhDADekwLA
+  </data>
+ </layer>
+ <objectgroup name="ColliderRectangles" width="25" height="25">
+  <object type="wall" x="272" y="205" width="96" height="40">
+   <properties>
+    <property name="material" value="stone"/>
+   </properties>
+  </object>
+  <object type="wall" x="176" y="205" width="80" height="40">
+   <properties>
+    <property name="material" value="stone"/>
+   </properties>
+  </object>
+  <object type="tree" x="83" y="286" width="9" height="6">
+   <properties>
+    <property name="type" value="evergreen"/>
+   </properties>
+  </object>
+  <object type="tree" x="35" y="286" width="9" height="6">
+   <properties>
+    <property name="type" value="evergreen"/>
+   </properties>
+  </object>
+  <object type="well" x="338" y="351" width="13" height="4">
+   <properties>
+    <property name="type" value="water"/>
+   </properties>
+  </object>
+  <object x="400" y="0" width="16" height="400">
+   <properties>
+    <property name="type" value="map_bounds"/>
+   </properties>
+  </object>
+  <object x="0" y="-16" width="400" height="16">
+   <properties>
+    <property name="type" value="map_bounds"/>
+   </properties>
+  </object>
+  <object x="-14" y="0" width="16" height="400">
+   <properties>
+    <property name="type" value="map_bounds"/>
+   </properties>
+  </object>
+  <object x="0" y="398" width="400" height="16">
+   <properties>
+    <property name="type" value="map_bounds"/>
+   </properties>
+  </object>
+  <object type="door" x="256" y="205" width="16" height="35">
+   <properties>
+    <property name="material" value="wood"/>
+   </properties>
+  </object>
+  <object type="container" x="114" y="290" width="11" height="3">
+   <properties>
+    <property name="material" value="wood"/>
+    <property name="type" value="chest"/>
+   </properties>
+  </object>
+  <object type="container" x="163" y="241" width="10" height="3">
+   <properties>
+    <property name="material" value="wood"/>
+    <property name="type" value="barrel"/>
+   </properties>
+  </object>
+  <object type="container" x="371" y="241" width="10" height="3">
+   <properties>
+    <property name="material" value="wood"/>
+    <property name="type" value="barrel"/>
+   </properties>
+  </object>
+  <object type="tree" x="275" y="302" width="9" height="6">
+   <properties>
+    <property name="type" value="evergreen"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
